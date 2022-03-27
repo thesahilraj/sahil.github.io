@@ -14,7 +14,7 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Responsive Portfolio Website</title>
+    <title>Sahil Raj - Portfolio</title>
 </head>
 
 <body>
@@ -47,7 +47,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                            <i class="uil uil-scenery nav__icon"></i>Projects
                         </a>
                     </li>
                     <li class="nav__item">
@@ -114,7 +114,7 @@
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Sahil</h1>
                         <h3 class="home__subtitle">ENTREPRENEUR</h3>
-                        <p class="home__description">I'm a Tech Geek from India💖
+                        <p class="home__description">A Tech Geek from India💖
                             <br>
                             I like to explore new technologies and find solution for Problems.
                         </p>
@@ -342,7 +342,7 @@
         <div class="services__content">
             <div>
                 <i class="uil uil-arrow services__icon"></i>
-                <h3 class="services__title">Frontend <br> Developer</h3>
+                <h3 class="services__title">Web <br> Developer</h3>
             </div>
             <span class="button button--flex button--small button--link services__button">
                 View more
@@ -424,8 +424,8 @@
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
 
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most recent works</span>
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most popular works</span>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
@@ -435,11 +435,11 @@
                 <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
-                    <h3 class="portfolio__title">Modern Website</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, 
-                        with ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
+                    <h3 class="portfolio__title">YoChat</h3>
+                    <p class="portfolio__description">Most Secure Chatting Application<br>
+                        Works on Peer to Peer Network with Encryption.</p>
+                    <a href="" class="button button--flex button--small portfolio__button">
+                        Under development
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
@@ -451,11 +451,11 @@
                 <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
-                    <h3 class="portfolio__title">Brand design</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, with 
-                        ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
+                    <h3 class="portfolio__title">SmartBIN</h3>
+                    <p class="portfolio__description">Smart Dustbin Network<br> 
+                        to reduce Pollution & treat trash Properly</p>
+                    <a href="" class="button button--flex button--small portfolio__button">
+                        Concept
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
@@ -467,11 +467,10 @@
                 <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
-                    <h3 class="portfolio__title">Online store</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, with 
-                        ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
+                    <h3 class="portfolio__title">AgniOS</h3>
+                    <p class="portfolio__description">AgniOS is the alternative to Windows and macOS designed to make your computer faster, more powerful, secure, and privacy-respecting.</p>
+                    <a href="" class="button button--flex button--small portfolio__button">
+                        Download
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
@@ -551,34 +550,35 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="mailto:mail@sahilraj.in"
+                method="POST"
+                enctype="multipart/form-data"
+                name="EmailForm" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="ContactName" class="contact__input">
                         </div>
-
+                
                         <div class="contact__content">
                             <label for="" class="contact__label">E-mail</label>
                             <input type="email" class="contact__input">
                         </div>
                     </div>
-
+                
                     <div class="contact__content">
                         <label for="" class="contact__label">Project</label>
                         <input type="text" class="contact__input">
                     </div>
-
+                
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="ContactCommentt" name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
-                            Send message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
+                        <input type="submit" value="Send message"  class="button button--flex"
+                        >
                     </div>
                 </form>
             </div>
